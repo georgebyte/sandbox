@@ -1,0 +1,5 @@
+<button (click)="addEntity()">Add entity</button>
+<button (click)="updateEntity()">Update entity</button>
+<ul>
+  <li *ngFor="let entity of entities">{{entity.settings.name}}</li>
+</ul>
